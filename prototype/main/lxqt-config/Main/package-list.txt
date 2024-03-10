@@ -47,6 +47,7 @@ qt6-svg
 
 
 
+
 ##
 ## ## Package / Theme / papirus-theme
 ##
