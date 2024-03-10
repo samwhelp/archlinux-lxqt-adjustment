@@ -35,6 +35,14 @@ openbox
 obconf-qt
 
 
+feh
+rofi
+picom
+
+#alsa-utils
+#brightnessctl
+
+
 
 
 ##
