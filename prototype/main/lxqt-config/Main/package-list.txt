@@ -132,10 +132,10 @@ pcmanfm-qt
 
 mousepad
 vim
-marco
+micro
 
 featherpad
-feathernote
+feathernotes
 
 geany
 
