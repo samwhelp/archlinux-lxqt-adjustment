@@ -5,7 +5,7 @@
 ## Arch Wiki
 
 * [Fcitx5](https://wiki.archlinux.org/title/Fcitx5)
-
+* [Fcitx5](https://wiki.archlinuxcn.org/zh-tw/Fcitx5)
 
 
 
@@ -20,6 +20,25 @@
 | [~/.config/fcitx5/config](./asset/overlay/etc/skel/.config/fcitx5/config) |
 | [~/.config/fcitx5/conf/classicui.conf](./asset/overlay/etc/skel/.config/fcitx5/conf/classicui.conf) |
 | [~/.config/fcitx5/conf/chewing.conf](./asset/overlay/etc/skel/.config/fcitx5/conf/chewing.conf) |
+
+
+### Environment Variables
+
+| Config File Path |
+| --- |
+| [/etc/profile.d/input-method.sh](./asset/overlay/etc/profile.d/input-method.sh) |
+
+
+* [Fcitx5](https://wiki.archlinuxcn.org/zh-tw/Fcitx5)
+
+``` sh
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+SDL_IM_MODULE=fcitx
+INPUT_METHOD=fcitx
+GLFW_IM_MODULE=ibus
+```
 
 
 
