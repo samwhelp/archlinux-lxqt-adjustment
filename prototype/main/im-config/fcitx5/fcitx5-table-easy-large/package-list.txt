@@ -20,7 +20,7 @@
 ## ## Package Group / fcitx5
 ##
 
-fcitx5-im
+#fcitx5-im
 
 
 
@@ -29,10 +29,10 @@ fcitx5-im
 ## ## Package / fcitx5
 ##
 
-#fcitx5
-#fcitx5-configtool
-#fcitx5-gtk
-#fcitx5-qt
+fcitx5
+fcitx5-configtool
+fcitx5-gtk
+fcitx5-qt
 
 fcitx5-chewing
 
