@@ -25,12 +25,11 @@
 
 ### Environment Variables
 
+* [Fcitx5](https://wiki.archlinuxcn.org/zh-tw/Fcitx5)
+
 | Config File Path |
 | --- |
-| [/etc/profile.d/input-method.sh](./asset/overlay/etc/profile.d/input-method.sh) |
-
-
-* [Fcitx5](https://wiki.archlinuxcn.org/zh-tw/Fcitx5)
+| /etc/environment |
 
 ``` sh
 GTK_IM_MODULE=fcitx
@@ -39,6 +38,21 @@ XMODIFIERS=@im=fcitx
 SDL_IM_MODULE=fcitx
 INPUT_METHOD=fcitx
 GLFW_IM_MODULE=ibus
+```
+
+or
+
+| Config File Path |
+| --- |
+| [/etc/profile.d/input-method.sh](./asset/overlay/etc/profile.d/input-method.sh) |
+
+``` sh
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export SDL_IM_MODULE=fcitx
+export INPUT_METHOD=fcitx
+export GLFW_IM_MODULE=ibus
 ```
 
 
