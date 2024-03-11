@@ -5,14 +5,21 @@
 ##
 
 
+##
+## ## Arch Wiki
+##
+## * https://wiki.archlinux.org/title/Arch_User_Repository
+## * https://archlinux.org/packages/core/any/base-devel/
+##
+
+
 
 
 ##
-## ## Package / Lubuntu
+## ## Package / Base
 ##
 
-#lubuntu-restricted-addons
-#lubuntu-restricted-extras
+xdg-user-dirs
 
 
 
@@ -21,8 +28,26 @@
 ## ## Package / Develop
 ##
 
-php-cli
-build-essential
+base-devel
+
+php
+
+
+
+
+##
+## ## Package / Util
+##
+
+tree
+less
+
+curl
+wget
+git
+
+lynx
+w3m
 
 
 
@@ -48,7 +73,7 @@ rofi
 ##
 
 xfce4-terminal
-sakura
+#sakura
 
 
 
@@ -58,7 +83,6 @@ sakura
 ##
 
 thunar
-pcmanfm-qt
 
 
 
@@ -68,7 +92,14 @@ pcmanfm-qt
 ##
 
 mousepad
+vim
+neovim
+micro
 
+featherpad
+feathernotes
+
+geany
 
 
 
@@ -85,4 +116,24 @@ viewnior
 ## ## Package / Tool / Media Player
 ##
 
+vlc
 mpv
+smplayer
+
+
+
+
+##
+## ## Package / Tool / Audio Player
+##
+
+audacious
+
+
+
+
+##
+## ## Package / Tool / Wallpaper
+##
+
+variety

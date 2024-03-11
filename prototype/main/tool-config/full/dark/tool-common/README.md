@@ -1,5 +1,14 @@
 
+
 # Tool
+
+
+## Arch Wiki
+
+* https://wiki.archlinux.org/title/Arch_User_Repository
+* https://archlinux.org/packages/core/any/base-devel/
+
+
 
 
 ## Config File Path
@@ -12,11 +21,11 @@
 | [~/.vim/vimrc](./asset/overlay/etc/skel/.vim/vimrc) |
 
 
-## Ubuntu Package
+## Arch Package
 
-| Ubuntu Package |
+| Arch Package |
 | --- |
-| [vim](https://packages.ubuntu.com/noble/vim) |
+| [vim](https://archlinux.org/packages/extra/x86_64/vim/) |
 
 
 
